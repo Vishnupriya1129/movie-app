@@ -1,0 +1,70 @@
+.movies-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.movies-header h1 {
+  margin: 0 0 16px 0;
+  font-size: 1.6rem;
+}
+.error {
+  color: #b00020;
+  margin-bottom: 12px;
+}
+.movies-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+}
+.controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin: 18px 0;
+}
+.controls button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+}
+.controls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.page-indicator {
+  font-weight: 600;
+}
+.loading {
+  text-align: center;
+  margin-top: 8px;
+  color: #555;
+}
+/* src/pages/MoviesGrid.css */
+.search-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.search-form button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background: #0056b3;
+}
